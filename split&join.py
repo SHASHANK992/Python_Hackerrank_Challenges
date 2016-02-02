@@ -1,0 +1,1 @@
+S = input()S=S.split(" ")S ="-".join(S)print(S)

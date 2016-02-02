@@ -1,0 +1,1 @@
+import sys;number = int(input());for i in range(0,number): sys.stdout.write(str(i+1))#PRINTING WITHOUT LEAVING LINES

@@ -1,0 +1,1 @@
+t=input()t=str.split(t)a=int(t[0])b=int(t[1])n=int(t[2])for i in range(n-2):    c=pow(b,2)+a    a=b    b=cprint(c)

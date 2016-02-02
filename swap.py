@@ -1,0 +1,1 @@
+n = int(input())x=[]for i in range(0,n):    x.append(*arg)print(x)#for i in range(0,n):#    list.append(x[i])

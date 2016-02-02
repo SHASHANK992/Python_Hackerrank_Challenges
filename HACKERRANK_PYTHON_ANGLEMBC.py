@@ -1,0 +1,1 @@
+# coding: utf-8import mathdegree_sign= u'\N{DEGREE SIGN}'a=int(input())b=int(input())if(a>=0 and a<=100):    if(b>=0 and b<=100):        flag=0if flag==0:    modulus=float(math.sqrt(pow(a,2)+pow(b,2)))    value=float(b/modulus)    value=math.acos(value)    value=((value)*180/math.pi)symbol="Â"string=str(int(value))+symbol+degree_signprint(string)

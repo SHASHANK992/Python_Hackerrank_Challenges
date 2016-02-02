@@ -1,0 +1,1 @@
+looper = int(input())if (looper>0 and looper<=100):    input=input()    list = str.split(input)    for i in range(len(list)):        list[i]=int(list[i])    list=sorted(set(list))    sum=counter=0    for i in range(len(list)):        sum = sum+list[i]        counter=counter+1    print(sum/counter)

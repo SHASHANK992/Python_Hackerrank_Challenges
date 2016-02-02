@@ -1,0 +1,1 @@
+def reverse_duplicate(l):    t=[]    t.append(l[0])    for i in l:        if i not in t:            t.append(i)    print(t)reverse_duplicate([1,2,3,2,1])

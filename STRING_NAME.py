@@ -1,0 +1,1 @@
+firstname=input()lastname=input()if(len(firstname)<=10 and len(lastname)<=10):    print('Hello %s %s! You just delved into python.'%(firstname,lastname))

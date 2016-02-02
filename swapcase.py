@@ -1,0 +1,1 @@
+S=input()if (len(S)>=0 and len(S)<=1000):    print(S.swapcase())

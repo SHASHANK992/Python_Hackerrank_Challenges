@@ -1,0 +1,1 @@
+import mathimport cmathstring=complex(input())string == string.real + string.imag*1j#print(string.real,string.imag)r=math.sqrt(pow(string.real,2)+pow(string.imag,2))phi=cmath.phase(abs(complex(string.real,string.imag)))print(r)print(phi)

@@ -1,0 +1,1 @@
+n = int(input())list=[]for i in range(n):    list.append(input())for i in range(n):    list[i]=list[i].lower()list=sorted(set(list))print(len(list))

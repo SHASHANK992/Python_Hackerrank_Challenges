@@ -1,0 +1,1 @@
+collector=[]collector = str(input("ENTER THE INPUTS:"))for i in range (0,len(collector)):    list=[]    list=collector.split()print(list[0])print(list[1])print(list[2])

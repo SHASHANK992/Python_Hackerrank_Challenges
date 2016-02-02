@@ -1,0 +1,1 @@
+from __future__ import divisioninput1 = int(input())input2 = int(input())if(input2!=0):    print(int(input1/input2))    print(input1%input2)    print(divmod(input1,input2))

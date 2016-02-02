@@ -1,0 +1,1 @@
+a=int(input())b=int(input())tuple=(a,b)tuple=tuple[::-1]for i in range(0,len(tuple)):    print(tuple[i])

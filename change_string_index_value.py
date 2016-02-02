@@ -1,0 +1,1 @@
+S = input()input1 = input()input1.strip()for i in range(0,len(input1)):    if (type(input1[i])=="str"):        new_variable=input1[i]i    if(type(input1[i]=="int")):        

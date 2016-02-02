@@ -1,0 +1,1 @@
+import textwrapstring= input()length=len(string)width=int(input())counter = widthif (length>0 and length<1000000):    if (width>0 and width<length):        j=0        for i in range(0,length):            print(string[j:j+width])            if (j>length):                break            j = j+width

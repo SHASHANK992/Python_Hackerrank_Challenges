@@ -1,0 +1,1 @@
+v=int(input())n=int(input())ar=input()list=[]list=str.split(ar)for i in range(n):    list[i]=int(list[i])count=0flag=0for i in range(n):    if (list[i]==v):        count=iif(n>=1 and n<=1000):    if(v>=-1000 and v<=1000):        for i in range(n):            if (list[i]==v):                flag=0if flag==0:    print(count)

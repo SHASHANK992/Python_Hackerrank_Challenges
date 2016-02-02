@@ -1,0 +1,1 @@
+def blank(ranger):    blank=""    for i in range(ranger-1):        blank = blank+" "    return blankdef hash(ranger):    hash="#"    for i in range(ranger):        hash=hash+"#"    return hashn=int(input())for i in range(n):    blanker = blank(n-i)    hasher=hash(i)    string=blanker+hasher    print(string)

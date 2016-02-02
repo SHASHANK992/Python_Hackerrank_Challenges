@@ -1,0 +1,1 @@
+s = str(input())t = str(input())list=[]list=str.split(t)for i in range(len(list)-1):    list[i]=int(list[i])i = list[0]c = list[1]s = s[:i]+c+s[i+1:]print(s)

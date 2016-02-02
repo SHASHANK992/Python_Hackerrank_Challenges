@@ -1,0 +1,1 @@
+input=input()print(input.title())

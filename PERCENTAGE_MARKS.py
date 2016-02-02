@@ -1,0 +1,1 @@
+cases=int(input())students={}if(case>=2 and cases<=10):    for i in range(0,cases):     current = input("Enter Name %s"%(i))     students['Name']=current     students['Physics']   = input("Enter Physics %s"%(i))     students['Maths']     = input("Enter Maths %s"%(i))     students['Chemistry'] = input("Enter Chemistry %s"%(i))

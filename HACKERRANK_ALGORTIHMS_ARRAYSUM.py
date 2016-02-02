@@ -1,0 +1,1 @@
+looper=int(input())input=input()list=[]list=str.split(input)sum=0for i in range(len(list)):    sum = sum+float(list[i])print(int(sum))
